@@ -196,7 +196,8 @@ http://www.kickjs.org/tool/shader_editor/shader_editor.html
 
 ### glslify
 
-export/require出来る（コードをモジュール化出来る）
+export/require出来る  
+（コードをモジュール化出来る）
 
 ```
 #pragma glslify: export(関数名)
