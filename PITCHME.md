@@ -47,7 +47,7 @@
 - バーテックスシェーダ |
 - ジオメトリシェーダ |
 - フラグメントシェーダ |
-- 今回はバーテックスシェーダとフラグメントシェーダについて |
+- 今回、ジオメトリシェーダは割愛 |
 
 +++
 
@@ -96,14 +96,13 @@ void main() {
 
 ```
 uniform float time;
-uniform vec2 resolution;
 
 void main()
 {
   // 色の設定
   // vec4という型のデータをつかう
   // rgba は 0.0 から 1.0
-  gl_FragColor = vec4(, 1.0);
+  gl_FragColor = vec4(sin(time) + 1.0);
 }
 ```
 
