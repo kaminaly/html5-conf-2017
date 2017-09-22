@@ -192,13 +192,26 @@ http://www.kickjs.org/tool/shader_editor/shader_editor.html
 
 ## その他ヘルパー
 
-- glslify
-  - export/require出来る（コードをモジュール化出来る）
-  - `#pragma glslify: export(関数名)`
-  - `#pragma glslify: 関数名 = require("./path/to/lib.glsl")`
-- glslify-import
-  - glslファイルをそのままインポート
-  - `#pragma glslify: import("./path/to/lib.glsl")`
++++
+
+### glslify
+
+export/require出来る（コードをモジュール化出来る）
+
+```
+#pragma glslify: export(関数名)
+#pragma glslify: 関数名 = require("./path/to/lib.glsl")
+```
+
++++
+
+### glslify-import
+
+glslファイルをそのままインポート
+
+```
+#pragma glslify: import("./path/to/lib.glsl")
+```
 
 ---
 
