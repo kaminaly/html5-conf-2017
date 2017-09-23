@@ -108,7 +108,7 @@ void main()
 
 +++
 
-### 変数
+### データ型
 
 - void, bool, int, float (見覚えのあるやつ) |
 - vec2, vec3, vec4 (座標や色に使えるやつ) |
